@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+/* Fonts
+font-family: 'Acme', sans-serif;
+font-family: 'Quicksand', sans-serif;
+
+*/
+
+body {
+  font-family: var(--text-font);
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  --headers-font: "Acme", sans-serif;
+  --text-font: "Quicksand", sans-serif;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  position: absolute;
+  border-bottom: 1px solid gray;
+}
+
+#logo a {
+  font-family: var(--headers-font);
+  font-weight: 700;
+  font-size: 2rem;
+  padding: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(204, 180, 241);
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+}
+
+ul a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-family: var(--headers-font);
+}
+
+ul a:hover {
+  text-decoration: underline solid rgb(204, 180, 241) 2px;
+}
+
+ul li {
+  list-style: none;
+  padding: 16px;
+}
+
+/* Footer */
+footer {
+  background-color: rgba(41, 41, 41, 0.756);
+  text-align: center;
+  margin-top: 150px;
+  border-top: 1px solid grey;
+}
+
+.footer-logo {
+  display: flex;
+  width: 120px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  color: white;
+  font-family: var(--headers-font);
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type="email"] {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 200px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icon {
+  text-decoration: none;
+  margin: 0 10px;
+  color: #e9e3e3;
+}
+
+.social-icon:hover {
+  color: #007bff;
+}
+
+/* about us */
+
+.contactBtn {
+  background-color: rgb(225, 214, 90);
+  color: black;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border: 1px solid silver;
+  border-radius: 12px;
+  padding: 8px 16px;
+  position: absolute;
+  top: 120px;
+  left: 40%;
+  right: 40%;
+  box-shadow: 2px 2px 1px rgb(206, 204, 207);
+}
+
+.contactBtn:hover {
+  transform: translateY(2px);
+  background-color: rgb(242, 226, 47);
+}
+
+.mobile-nav-container {
+  display: none;
+}

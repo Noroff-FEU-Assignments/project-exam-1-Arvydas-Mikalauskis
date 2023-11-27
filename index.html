@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/shared-styles.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/@media.css">
+    <script src="/scripts/cardCarousel.js" defer></script>
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--......-->
+    <title>Homepage</title>
+  </head>
+  <body>
+    <header>
+      <div id="logo">
+        <a href="index.html">Spice Trail Tales</a>
+      </div>
+      <nav>
+        <div class="desktop-nav-container">
+          <ul>
+            <li><a href="blogPosts.html">Recipes</a></li>
+            <li><a href="aboutUs.html">About Us</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
+          </ul>
+        </div>
+        <div class="mobile-nav-container">
+          <ul>
+            <li>
+              <i class="fa-solid fa-utensils"></i>
+              <a href="blogPosts.html">Recipes</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-people-group"></i>
+              <a href="aboutUs.html">About Us</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-comments"></i>
+              <a href="contacts.html">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="hero">
+        <div id="hero-content">
+          <h1>Asian recipes from the kitchens of the far east</h1>
+          <p>
+            Easy authentic asian food recipes that everybody can make at the
+            comfort of their own home
+          </p>
+          <a href="blogPosts.html">Find your next meal</a>
+        </div>
+      </section>
+      <section id="mobile-version-posts">
+        <div id="mobile-posts-description">
+          <h2>Delicious Food</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nesciunt reprehenderit animi autem delectus.</p>
+        </div>
+        <div class="mobile-posts-images">
+          <img src="images/blog posts/khloe-arledge-ND3edEmzcdQ-unsplash.jpg" alt="salmon soup">
+          <img src="images/blog posts/vegan-pad-thai-800x1200.jpg" alt="pad thai">
+        </div>
+      </section>
+      <section id="latest-posts-container">
+        <h2>Latest Posts</h2>
+        <button id="prevBtn"><i class="fa-solid fa-left-long fa-lg"></i></i></button>
+        <button id="nextBtn">
+          <i class="fa-solid fa-right-long fa-lg"></i>
+        </button>
+        <div class="carousel-container">
+          <ul id="latest-posts"></ul>
+        </div>
+      </section>
+      <section id="traditional-recipes-section">
+        <div id="about-recipes">
+          <h3>Traditional Recipes</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem
+            similique hic libero quia, voluptatem dicta obcaecati asperiores ea
+            dolorem voluptatum optio voluptates, nulla saepe dolor rerum rem
+            eaque doloremque alias! Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Aliquid ut non officia veniam minima repellendus
+            laboriosam mollitia. Qui corporis perspiciatis aliquam nisi facilis
+            architecto optio, expedita quasi alias distinctio quod!
+          </p>
+        </div>
+        <div id="traditional-recipes-grid">
+          <img
+            class="grid-img"
+            id="grid-img-nr1"
+            src="images/grid/budi-puspa-wijaya-csZz0OwZc6Y-unsplash.jpg"
+            alt=""
+          />
+          <img
+            class="grid-img"
+            id="grid-img-nr2"
+            src="images/grid/christian-dala-CyPxAX-tlA4-unsplash.jpg"
+            alt=""
+          />
+          <img
+            class="grid-img"
+            id="grid-img-nr3"
+            src="images/grid/christian-dala-Qw6HTKYBtCQ-unsplash.jpg"
+            alt=""
+          />
+          <img
+            class="grid-img"
+            id="grid-img-nr4"
+            src="images/grid/k-azwan-qCmoHnvA94o-unsplash.jpg"
+            alt=""
+          />
+        </div>
+      </section>
+      <section id="leadToAboutUS-page">
+        <div class="aboutUs-Short-Description">
+          <h4>About Us</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+            dignissimos cumque possimus fuga corrupti eveniet animi dolorum!
+            Tempora quidem non quod atque perferendis iste eaque cum, eum,
+            excepturi dolorum fugit.....
+            <a href="aboutUs.html" id="aboutUs-Short-Description-Btn" >Read more</a>
+          </p>
+        </div>
+        <img
+          src="images/aboutUs/louis-hansel-8FWQQXMspEM-unsplash-removebg-preview.png"
+          alt=""
+        />
+      </section>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <img class="footer-logo" src="images/icons/chilli logo.png" alt="" />
+        <div class="newsletter">
+          <label for="email">Subscribe to our Newsletter:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+          />
+          <button type="submit">Subscribe</button>
+        </div>
+        <div class="social-media">
+          <a href="https://www.facebook.com/" class="social-icon">Facebook</a>
+          <a href="https://twitter.com/" class="social-icon">Twitter / X </a>
+          <a href="https://www.instagram.com/" class="social-icon">Instagram</a>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/558153e5d0.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

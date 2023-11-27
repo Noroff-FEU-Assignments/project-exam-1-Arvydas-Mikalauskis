@@ -1,0 +1,776 @@
+@media only screen and (max-width: 1300px) {
+  .aboutUs-hero-text {
+    left: 10%;
+    right: 10%;
+  }
+
+  .about-cuisine {
+    width: 80vw;
+  }
+
+  .story-text {
+    line-height: 1.6;
+    padding: 10px 60px;
+  }
+}
+
+@media only screen and (max-width: 1220px) {
+  /* About us page */
+  .footer-to-contactPage-text a {
+    left: 150px;
+  }
+
+  #catering,
+  #meal-planning,
+  #wedding-meals,
+  #menu-planning {
+    width: 18%;
+    height: 180px;
+  }
+
+  /* ::::::::::::::::::::::::::::: */
+
+  /* Blog posts page */
+
+  .blog-posts-images {
+    width: 220px;
+  }
+
+  .blogPosts-text {
+    padding: 10px 5px 60px 5px;
+  }
+
+  .blog-posts-container {
+    margin: 80px 0px 0px 5px;
+    width: 100%;
+  }
+
+  .blog-posts-content {
+    width: 45%;
+  }
+
+  /* Homepage */
+
+  #hero {
+    height: 90vh;
+  }
+
+  #hero-content {
+    top: 180px;
+  }
+
+  .latest-post p:first-of-type,
+  .latest-post p:nth-of-type(3) {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .latest-post p:nth-of-type(2) {
+    text-align: center;
+    width: 100%;
+    padding: 20px 0px;
+    margin: 0px;
+  }
+
+  #read-latest-postBTN {
+    margin-top: 20px;
+    display: flex;
+    height: 20px;
+  }
+}
+
+@media only screen and (max-width: 1098px) {
+  /* About us page */
+  .aboutUs-hero-text {
+    left: 5%;
+    right: 5%;
+  }
+
+  .story-text {
+    line-height: 1.4;
+    padding: 10px 30px;
+  }
+
+  .footer-to-contactPage-text a {
+    left: 40px;
+    top: 300px;
+    padding: 4px 8px;
+    font-size: 1rem;
+  }
+
+  /* ::::::::::::::::::::::::: */
+
+  /* Contact us page */
+
+  .contactUs-container {
+    gap: 0px;
+  }
+
+  /* single blog post page */
+
+  #single-post-hero {
+    background-position: 0px -50px;
+  }
+
+  /* Blog posts page */
+
+  .blog-posts-images {
+    width: 200px;
+  }
+
+  .blogPosts-text {
+    padding: 10px 5px 60px 0px;
+  }
+
+  .blog-posts-container {
+    margin: 80px 0px 0px 5px;
+    width: 95%;
+  }
+
+  .blog-posts-content {
+    width: 47%;
+    height: 380px;
+  }
+
+  /* Homepage */
+
+  #hero {
+    height: 80vh;
+  }
+
+  #hero-content {
+    top: 140px;
+  }
+
+  #read-latest-postBTN {
+    margin-top: 5px;
+    display: flex;
+    height: 20px;
+  }
+}
+
+@media only screen and (max-width: 979px) {
+  /* Blog posts page */
+
+  .blog-posts-content {
+    width: 100%;
+    height: 260px;
+  }
+
+  .read-article-btn {
+    margin-top: -30px;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  #story-section {
+    width: 90vw;
+  }
+
+  .story-text {
+    line-height: 1.2;
+    padding: 10px 10px;
+  }
+
+  .about-cuisine {
+    width: 90vw;
+  }
+
+  .cuisne-text {
+    line-height: 1.6;
+  }
+
+  .aboutUs-hero-text {
+    left: 5%;
+    right: 5%;
+    top: 10%;
+  }
+
+  .service-offers {
+    height: 400px;
+    flex-direction: column;
+  }
+
+  #catering,
+  #meal-planning,
+  #wedding-meals,
+  #menu-planning {
+    width: 27%;
+    height: 180px;
+  }
+
+  .footer-to-contactPage-text h5 {
+    font-size: 1.4rem;
+  }
+
+  .about-footer-image {
+    width: 420px;
+  }
+
+  .footer-to-contactPage-text a {
+    left: 70px;
+    top: 180px;
+    padding: 4px 8px;
+    font-size: 1rem;
+  }
+
+  /* Contact us page */
+
+  .contactUs-container {
+    gap: 0px;
+  }
+
+  .contacts-info-sticker {
+    margin-right: 30px;
+  }
+
+  .inquiries-single-block {
+    padding: 14px;
+  }
+
+  /* single blog post page */
+
+  #single-post-hero {
+    background-position: 0px -20px;
+  }
+
+  /* Homepage */
+
+  #hero {
+    height: 75vh;
+  }
+
+  #hero-content {
+    top: 120px;
+  }
+
+  #read-latest-postBTN {
+    margin-top: 5px;
+    display: flex;
+    height: 20px;
+  }
+
+  .latest-post p:nth-of-type(2) {
+    font-size: 0.8rem;
+  }
+
+  #read-latest-postBTN {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .aboutUs-hero-img {
+    max-height: 45vh;
+  }
+
+  .aboutUs-hero-text {
+    left: 2%;
+    right: 2%;
+    top: 5%;
+  }
+
+  .contactBtn {
+    font-size: 1rem;
+  }
+
+  .cuisne-text {
+    line-height: 1.2;
+    padding-right: 10px;
+  }
+
+  .footer-to-contactPage-text p {
+    font-size: 0.6rem;
+  }
+
+  .aboutUs-hero-text {
+    top: 15%;
+  }
+
+  .aboutUs-hero-text p {
+    font-size: 0.8rem;
+  }
+
+  .aboutUs-hero-text h1 {
+    font-size: 1.2rem;
+  }
+
+  .contactBtn {
+    top: 100px;
+    padding: 8px 12px;
+  }
+
+  .aboutUs-hero-img {
+    height: 50vh;
+  }
+
+  /* Homepage */
+
+  .latest-post {
+    height: 420px;
+  }
+
+  .latest-post img {
+    height: 180px;
+  }
+
+  #traditional-recipes-grid {
+    margin-top: 80px;
+  }
+
+  #about-recipes > p {
+    margin-top: 4px;
+    padding: 10px 6px;
+  }
+
+  .aboutUs-Short-Description > p {
+    padding: 0px 10px;
+  }
+
+  .aboutUs-Short-Description {
+    align-items: start;
+  }
+
+  .aboutUs-Short-Description h4 {
+    padding: 4px 10px;
+  }
+
+  .latest-post {
+    height: 380px;
+  }
+
+  #read-latest-postBTN {
+    margin-top: -10px;
+  }
+}
+
+@media only screen and (max-width: 896px) {
+  /* Contact us page */
+
+  .contacts-info-sticker {
+    margin-right: 10px;
+    width: 40%;
+  }
+
+  .contact-form-container {
+    width: 45%;
+  }
+
+  .inquiries-blocks {
+    gap: 10px;
+  }
+
+  .inquiries-single-block {
+    padding: 8px;
+  }
+
+  .inquiries-single-block {
+    width: 30%;
+  }
+
+  /* ::::::::::::::::::::::: */
+}
+
+@media only screen and (max-width: 767px) {
+  #story-section,
+  .about-cuisine {
+    height: 400px;
+  }
+
+  #story-section p {
+    font-size: 0.8rem;
+  }
+
+  .cuisine-img img {
+    height: 400px;
+    width: auto;
+  }
+
+  .service-offers {
+    flex-wrap: nowrap;
+    height: auto;
+    width: 100%;
+  }
+
+  #catering,
+  #meal-planning,
+  #wedding-meals,
+  #menu-planning {
+    width: 70%;
+  }
+
+  #footer-to-contactPage {
+    margin-left: 0px;
+  }
+
+  .footer-to-contactPage-text {
+    margin-left: 0px;
+    padding-left: 10px;
+  }
+
+  .footer-to-contactPage-text p {
+    font-size: 0.7rem;
+  }
+
+  .about-footer-image {
+    width: 50vw;
+  }
+
+  /* Contact us page */
+
+  #inquiries-section p {
+    padding: 2px 5px;
+  }
+
+  .inquiries-single-block p:first-child {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  /* single blog post page */
+
+  #single-post-hero {
+    background-position: -20px 0px;
+    height: 300px;
+  }
+
+  .blog-post-details {
+    margin-top: 60px;
+    margin-left: 5%;
+    width: 90%;
+  }
+
+  .recipe-description {
+    margin-bottom: 12vh;
+  }
+
+  .blog-post-image {
+    width: 600px;
+    height: 400px;
+  }
+
+  /* Blog posts page */
+
+  .load-more-btn-container {
+    margin-bottom: 8vh;
+  }
+
+  .read-article-btn {
+    margin-top: -10px;
+  }
+
+  .blogPosts-text p {
+    margin-top: -4px;
+  }
+
+  /* Homepage */
+
+  #hero {
+    height: 70vh;
+  }
+
+  #hero-content h1 {
+    font-size: 1.3rem;
+  }
+
+  #hero-content p {
+    font-size: 0.9rem;
+  }
+
+  #hero-content a {
+    font-size: 1rem;
+  }
+
+  .carousel-container {
+    display: none;
+  }
+
+  #latest-posts-container h2 {
+    display: none;
+  }
+
+  #mobile-version-posts {
+    display: flex;
+    height: 300px;
+    margin-top: 100px;
+    width: 100%;
+    gap: 10px;
+    background-color: rgb(237, 240, 243);
+  }
+
+  #mobile-posts-description {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  #mobile-posts-description h2 {
+    font-family: var(--headers-font);
+  }
+
+  .mobile-posts-images {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+  }
+
+  .mobile-posts-images img {
+    object-fit: cover;
+    border-radius: 6px;
+  }
+
+  #traditional-recipes-grid {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 40px;
+  }
+
+  #traditional-recipes-grid img {
+    width: 260px;
+    height: 100px;
+  }
+}
+
+@media only screen and (max-width: 667px) {
+  .contacts-info-sticker {
+    margin-right: 5px;
+  }
+
+  #contact-question p {
+    padding-left: 0px;
+  }
+
+  .social-media {
+    flex-direction: column;
+  }
+
+  .social-icon {
+    padding: 10px 0px;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  #story-section {
+    width: 100%;
+  }
+
+  .story-text {
+    margin-left: 4px;
+  }
+
+  .about-cuisine,
+  .cuisne-text {
+    margin-left: 0px;
+    width: 100%;
+  }
+
+  .cuisine-img {
+    margin-right: 0px;
+  }
+
+  .cuisne-text p {
+    font-size: 0.8rem;
+    padding: 10px 8px;
+  }
+
+  /* single blog post page */
+
+  .blog-post-image {
+    width: 400px;
+    height: 260px;
+  }
+
+  /* Blog posts page */
+
+  #blog-posts-hero {
+    height: 300px;
+  }
+
+  .load-more-btn-container {
+    margin-bottom: 14vh;
+    height: 20px;
+    width: 220px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .blogPosts-text p {
+    font-size: 0.8rem;
+  }
+
+  .read-article-btn {
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  #story-section p,
+  .cuisne-text p,
+  .aboutUs-hero-text p {
+    font-size: 0.7rem;
+  }
+
+  .contactBtn {
+    font-size: 0.8rem;
+  }
+
+  .about-footer-image {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .contactUs-container {
+    flex-direction: column;
+  }
+
+  .contacts-info-sticker {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .contacts-info-sticker p {
+    padding: 0px;
+  }
+
+  .contacts-info-sticker p:last-of-type {
+    padding: 0px 10px;
+  }
+
+  .contact-form-container {
+    margin: 50px auto;
+    width: 80%;
+  }
+
+  .inquiries-blocks {
+    flex-direction: column;
+  }
+
+  .inquiries-single-block {
+    width: 100%;
+  }
+
+  /* Single blog post page /*/
+
+  .recipe-description li {
+    padding: 12px 0px;
+  }
+
+  .recipe-description ul {
+    padding-right: 60px;
+  }
+
+  .recipe-description strong {
+    padding: 0px;
+  }
+
+  /* Homepage */
+
+  #hero {
+    height: 60vh;
+  }
+
+  #hero-content {
+    top: 80px;
+  }
+
+  #hero-content {
+    width: 50%;
+  }
+
+  #mobile-version-posts {
+    height: 200px;
+  }
+
+  #mobile-posts-description {
+    width: 100%;
+  }
+
+  #about-recipes > h3 {
+    font-size: 1.5rem;
+  }
+
+  #about-recipes > p {
+    font-size: 0.8rem;
+  }
+
+  #about-recipes {
+    padding: 0px;
+  }
+
+  #leadToAboutUS-page {
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 509px) {
+  /* Homepage */
+
+  #mobile-version-posts p {
+    font-size: 0.8rem;
+  }
+
+  #traditional-recipes-grid {
+    padding: 0px 15px;
+  }
+
+  .aboutUs-Short-Description > p {
+    font-size: 0.8rem;
+  }
+}
+
+/* NAV queries:::::::::::::::::::: */
+
+@media only screen and (max-width: 767px) {
+  .desktop-nav-container {
+    display: none;
+  }
+
+  .mobile-nav-container {
+    display: block;
+    position: fixed;
+    background-color: rgb(241, 238, 234);
+    width: 100vw;
+    height: 8vh;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+  }
+
+  .mobile-nav-container ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .mobile-nav-container ul li {
+    border: 1px solid whitesmoke;
+    flex: 1;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .mobile-nav-container ul li i {
+    display: block;
+    margin-bottom: 3px;
+  }
+
+  .mobile-nav-container ul li a {
+    color: black;
+    font-size: 0.8rem;
+  }
+
+  header {
+    justify-content: center;
+  }
+
+  #footer-to-contactPage,
+  .footer-content {
+    margin-bottom: 8vh;
+  }
+}

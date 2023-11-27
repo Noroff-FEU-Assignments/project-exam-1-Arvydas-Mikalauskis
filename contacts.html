@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/shared-styles.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/@media.css" />
+    <title>Contacts Page</title>
+  </head>
+  <body>
+    <header id="contact-header">
+      <div id="logo">
+        <a href="index.html">Spice Trail Tales</a>
+      </div>
+      <nav>
+        <div class="desktop-nav-container">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blogPosts.html">Recipes</a></li>
+            <li><a href="aboutUs.html">About Us</a></li>
+          </ul>
+        </div>
+        <div class="mobile-nav-container">
+          <ul>
+            <li>
+              <i class="fa-solid fa-utensils"></i>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-people-group"></i>
+              <a href="blogPosts.html">Recipes</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-comments"></i>
+              <a href="aboutUs.html">About Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div id="contact-question">
+        <h1>How can we help?</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem aliquid
+          deleniti ipsam architecto porro quaerat aperiam vero corporis nisi
+        </p>
+      </div>
+      <div class="contactUs-container">
+        <div class="contacts-info-sticker">
+          <h2>Contact Us</h2>
+          <p>
+            <strong>BY EMAIL:</strong>
+            <br />
+            fakename@fakeemail.com
+          </p>
+          <br />
+          <p>
+            <strong>On social media:</strong>
+            <br /><a href="https://www.facebook.com/"
+              ><i class="fa-brands fa-square-facebook fa-xl"></i
+            ></a>
+            <a href="https://www.instagram.com"
+              ><i class="fa-brands fa-instagram fa-xl"></i
+            ></a>
+            <a href="https://www.tiktok.com/en/"
+              ><i class="fa-brands fa-tiktok fa-xl"></i
+            ></a>
+          </p>
+          <br />
+          <p>
+            <strong>BY CONTACT FORM:</strong>
+            <br />
+            Use the contact form to send us the message, and we will respond in
+            24h
+          </p>
+        </div>
+        <div class="contact-form-container">
+          <h3>Contact form</h3>
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="fullName">Full Name</label>
+              <input type="text" id="fullName" name="fullName" required />
+              <small class="error-message"></small>
+            </div>
+
+            <div class="form-group">
+              <label for="emailAddress">Email Address</label>
+              <input
+                type="email"
+                id="emailAddress"
+                name="emailAddress"
+                required
+              />
+              <small class="error-message"></small>
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" required />
+              <small class="error-message"></small>
+            </div>
+
+            <div class="form-group">
+              <label for="messageContent">Message Content</label>
+              <textarea
+                id="messageContent"
+                name="messageContent"
+                required
+              ></textarea>
+              <small class="error-message"></small>
+            </div>
+
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+      <section id="inquiries-section">
+        <h3>We would love to hear from you</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Necessitatibus, officiis debitis laborum consectetur ratione.
+        </p>
+        <div class="inquiries-blocks">
+          <div class="inquiries-single-block">
+            <p>Get support</p>
+            <p>Looking to help, or offer your ideas</p>
+          </div>
+          <div class="inquiries-single-block">
+            <p>Partnership inquiries</p>
+            <p>Looking to collaborate with us</p>
+          </div>
+          <div class="inquiries-single-block">
+            <p>Media inquiries</p>
+            <p>Lorem ipsum dolor, sit amet conipiic</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <img class="footer-logo" src="images/icons/chilli logo.png" alt="" />
+        <div class="newsletter">
+          <label for="email">Subscribe to our Newsletter:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+          />
+          <button type="submit">Subscribe</button>
+        </div>
+        <div class="social-media">
+          <a href="https://www.facebook.com/" class="social-icon">Facebook</a>
+          <a href="https://www.instagram.com/" class="social-icon">Twitter</a>
+          <a href="https://www.twitter.com/" class="social-icon">Instagram</a>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/558153e5d0.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="scripts/contactForm.js"></script>
+  </body>
+</html>
