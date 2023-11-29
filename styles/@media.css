@@ -244,6 +244,11 @@
     top: 120px;
   }
 
+  #prevBtn,
+  #nextBtn {
+    top: 200px;
+  }
+
   #read-latest-postBTN {
     margin-top: 5px;
     display: flex;

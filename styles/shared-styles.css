@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Acme&family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 /* Fonts
 font-family: 'Acme', sans-serif;
@@ -13,8 +13,8 @@ body {
 }
 
 html {
-  --headers-font: "Acme", sans-serif;
-  --text-font: "Quicksand", sans-serif;
+  --headers-font: 'Acme', sans-serif;
+  --text-font: 'Quicksand', sans-serif;
 }
 
 header {
@@ -89,7 +89,7 @@ footer {
   justify-content: center;
 }
 
-input[type="email"] {
+input[type='email'] {
   margin: 10px 0;
   padding: 10px;
   border: 1px solid #ddd;
